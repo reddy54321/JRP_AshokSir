@@ -1,0 +1,64 @@
+31-May-2020
+-----------
+What is an Environment of a Project ?
+
+Why we need environments for project?
+
+Who will create those environments?
+
+Environment
+-----------
+To run our project we need infrastructure that is called as Environment of the project.
+
+Machine with OS
+Web/Application Server
+Database Server etc..
+
+For our application we need several environments like below
+
+	1) DEV
+	2) QA
+	3) UAT
+	4) Pilot
+	5) Production (live env)
+
+-> In company, these environments will be created by DevOps team.
+
+-> We will use these environments to test our application
+
+-> Developers will use DEV environment to perform Dev Integration Testing
+
+-> Testers will use QA environment to perform Software Testing
+
+-> Client/Client side team members will use UAT environment to perform acceptance testing
+
+-> Pilot/Staging is called as pre-production (Test application behaviour with live   data)
+
+-> Production environment is used to deliver the project (Live Env)
+
+-> If application is deployed to Prod environment end users can access the project.
+
+
+Build & Deployment process
+---------------------------
+-> Developer(s) will commit code to repository
+
+-> Take latest code from Repository
+
+-> Compile source code
+
+-> Code Review
+
+-> Execute Junits
+
+-> Package project
+
+-> Deploy project to environment
+
+Eariler admin team used to perform all the above steps manually. But now a days we are automating above steps using a tool called JENKINS.
+
+
+
+
+
+
